@@ -29,7 +29,7 @@
   }
 
   function _defineProperty(obj, key, value) {
-    if (key in obj) {
+    //if (key in obj) {
       Object.defineProperty(obj, key, {
         value: value,
         enumerable: true,
